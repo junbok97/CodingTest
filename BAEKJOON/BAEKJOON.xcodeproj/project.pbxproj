@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBE969E02B70D9F1003E1CAC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE969DF2B70D9F1003E1CAC /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBE969DA2B70D9F1003E1CAC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB01ADE52BCBC39A008E821E /* 11727-2*n 타일링2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11727-2*n 타일링2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB01ADE62BCBC675008E821E /* 2193-이친수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2193-이친수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB01ADE72BCBC8E0008E821E /* 1912-연속합.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1912-연속합.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB01ADE82BCBD7FC008E821E /* 11055-가장 큰 증가하는 부분 수열.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11055-가장 큰 증가하는 부분 수열.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB01ADE92BCBD8A7008E821E /* 11053-가장 긴 증가하는 부분 수열.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11053-가장 긴 증가하는 부분 수열.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB01ADEA2BCBDF77008E821E /* 9461-파도반 수열.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9461-파도반 수열.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB0745752B80BCAB00E3A967 /* 7569-토마토.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7569-토마토.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB0A6B052BC57EEC00075D9E /* 11726-2*n 타일링.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11726-2*n 타일링.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB0A6B062BC5823400075D9E /* 11659-구간 합 구하기 4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11659-구간 합 구하기 4.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB0A6B072BC5914E00075D9E /* 12852-1로 만들기 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12852-1로 만들기 2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB1218552BBAA6BA00057B9D /* 6198-옥상 정원 꾸미기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6198-옥상 정원 꾸미기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB1218562BBAB87900057B9D /* 17298-오큰수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "17298-오큰수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB1218592BBAC12F00057B9D /* 3015-오아시스 재결합.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3015-오아시스 재결합.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12185E2BBACCB300057B9D /* 6593-상범빌딩.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6593-상범빌딩.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12F37E2BBFB1F400A88119 /* 9663-N-Queen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9663-N-Queen.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12F37F2BBFB6EA00A88119 /* 1182-부분수열의 합.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1182-부분수열의 합.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12F3802BBFBC8E00A88119 /* 15650-N과M(2).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15650-N과M(2).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12F3812BBFBFBA00A88119 /* 15651-N과M(3).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15651-N과M(3).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12F3822BBFC21800A88119 /* 15652-N과M(4).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15652-N과M(4).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12F3832BBFC41600A88119 /* 15654-N과M(5).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15654-N과M(5).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12F3842BBFC5B000A88119 /* 15655-N과M(6).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15655-N과M(6).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12F3862BBFDFEB00A88119 /* 15656-N과M(7).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15656-N과M(7).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12F3872BBFE27C00A88119 /* 15657-N과M(8).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15657-N과M(8).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB12F3882BBFE4F600A88119 /* 15663-N과M(9).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15663-N과M(9).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB2F55B22BB5B16D00FB5951 /* 1629-곱셈.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1629-곱셈.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB2F55B32BB5BDEA00FB5951 /* 11729-하노이 탑 이동 순서.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11729-하노이 탑 이동 순서.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB2F55B42BB5C1C400FB5951 /* 1074-Z.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1074-Z.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB33FC422B93429C00BE354C /* 5427-불.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5427-불.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB4A93AA2BB6DFD8007DD0A1 /* 17478-재귀함수가 뭔가요?.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "17478-재귀함수가 뭔가요?.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB4A93AB2BB6ECA2007DD0A1 /* 1780-종이의 개수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1780-종이의 개수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB4EA2062BBC0221004BE17E /* 15649-N과M(1).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15649-N과M(1).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB534D472BA83ACE001B6EA0 /* 10799-쇠막대기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10799-쇠막대기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB534D482BA83F0B001B6EA0 /* 4949-균형잡힌 세상.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4949-균형잡힌 세상.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB534D492BA8454D001B6EA0 /* 3986-좋은단어.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3986-좋은단어.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB76E99D2BCD31BA00B9891A /* 15664-N과M(10).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15664-N과M(10).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB76E99E2BCD3AB800B9891A /* 14501-퇴사.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "14501-퇴사.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB7C37892BC0D756004120E3 /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB7C72722BC904EC00B95BE8 /* 1003-피보나치 함수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1003-피보나치 함수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB7C72732BC9074E00B95BE8 /* 1932-정수 삼각형.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1932-정수 삼각형.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB7D7DFA2BC3C08F007AC82D /* 1463-1로 만들기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1463-1로 만들기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB7D7DFB2BC3C4CA007AC82D /* 9095-1, 2, 3 더하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9095-1, 2, 3 더하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB7D7DFC2BC3C60A007AC82D /* 2579-계단 오르기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2579-계단 오르기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB7D7DFD2BC3CF4F007AC82D /* 1149-RGB거리.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1149-RGB거리.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB810E482BA6AB5800E6F277 /* 2583-영역 구하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2583-영역 구하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB810E492BA6B43400E6F277 /* 2667-단지번호붙이기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2667-단지번호붙이기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB8727572BE114FB00A37950 /* 15666-N과M(12) .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15666-N과M(12) .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB8727582BE1184300A37950 /* 6603-로또.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6603-로또.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB97AE072BE4CCA000C883C8 /* 1759-암호 만들기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1759-암호 만들기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CB9B91E82B7CF8CE00EC7AB7 /* 10026-적록색약.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10026-적록색약.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBB25EA22BD8D58300F5F31F /* 15665-N과M(11).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15665-N과M(11).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBCE7AD02B92DE5E00B1E57A /* 10773-제로.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10773-제로.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBCE7AD12B92DE5E00B1E57A /* 1697-숨바꼭질.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1697-숨바꼭질.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBCE7AD22B92DE5E00B1E57A /* 1012-유기농 배추.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1012-유기농 배추.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBCE7AD32B92DE5E00B1E57A /* 2178-미로탐색.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2178-미로탐색.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBCE7AD42B92DE5E00B1E57A /* 1926-그림.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1926-그림.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBCE7AD52B92DEA000B1E57A /* 7562-나이트의 이동.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7562-나이트의 이동.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBD6E25A2BAD52A2009334C4 /* 9012-괄호.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9012-괄호.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBD6E25B2BAD5E8D009334C4 /* 2504-괄호의 값.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2504-괄호의 값.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBD6E25C2BAD6AD5009334C4 /* 5014-스타트링크.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5014-스타트링크.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBD6E25D2BAD6F84009334C4 /* 2468-안전 영역.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2468-안전 영역.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBE969DC2B70D9F1003E1CAC /* BAEKJOON */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BAEKJOON; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE969DF2B70D9F1003E1CAC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CBE969EC2B70DB07003E1CAC /* 2493-탑.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2493-탑.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBE976D82B7349C6005A0E4F /* 7576-토마토.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7576-토마토.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBE976D92B735AF1005A0E4F /* 4179-불!.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4179-불!.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBEA505C2BB7FD1E007292AA /* 2630-색종이 만들기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2630-색종이 만들기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBEA505D2BB7FEBD007292AA /* 1992-쿼드트리.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1992-쿼드트리.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBEA50602BB80431007292AA /* 10828-스택.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10828-스택.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBEA50612BB80863007292AA /* 1874-스택수열.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1874-스택수열.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBE969D92B70D9F1003E1CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1218572BBAB96F00057B9D /* Platinum */ = {
+			isa = PBXGroup;
+			children = (
+				CB1218582BBAB97300057B9D /* 스택 */,
+			);
+			name = Platinum;
+			path = "플레";
+			sourceTree = "<group>";
+		};
+		CB1218582BBAB97300057B9D /* 스택 */ = {
+			isa = PBXGroup;
+			children = (
+				CB1218592BBAC12F00057B9D /* 3015-오아시스 재결합.playground */,
+			);
+			name = "스택";
+			path = "스택";
+			sourceTree = "<group>";
+		};
+		CB12185A2BBAC3B900057B9D /* BFS&DFS */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE7AD12B92DE5E00B1E57A /* 1697-숨바꼭질.playground */,
+				CBCE7AD52B92DEA000B1E57A /* 7562-나이트의 이동.playground */,
+				CB810E482BA6AB5800E6F277 /* 2583-영역 구하기.playground */,
+				CB810E492BA6B43400E6F277 /* 2667-단지번호붙이기.playground */,
+				CBD6E25C2BAD6AD5009334C4 /* 5014-스타트링크.playground */,
+				CBD6E25D2BAD6F84009334C4 /* 2468-안전 영역.playground */,
+				CBCE7AD22B92DE5E00B1E57A /* 1012-유기농 배추.playground */,
+				CBCE7AD32B92DE5E00B1E57A /* 2178-미로탐색.playground */,
+				CBCE7AD42B92DE5E00B1E57A /* 1926-그림.playground */,
+			);
+			path = "BFS&DFS";
+			sourceTree = "<group>";
+		};
+		CB12185B2BBAC3F900057B9D /* 스택의 활용 */ = {
+			isa = PBXGroup;
+			children = (
+				CB534D472BA83ACE001B6EA0 /* 10799-쇠막대기.playground */,
+				CB534D492BA8454D001B6EA0 /* 3986-좋은단어.playground */,
+				CBD6E25A2BAD52A2009334C4 /* 9012-괄호.playground */,
+				CB534D482BA83F0B001B6EA0 /* 4949-균형잡힌 세상.playground */,
+			);
+			name = "스택의 활용";
+			path = "스택의활용";
+			sourceTree = "<group>";
+		};
+		CB12185C2BBAC41200057B9D /* 스택의 활용 */ = {
+			isa = PBXGroup;
+			children = (
+				CBD6E25B2BAD5E8D009334C4 /* 2504-괄호의 값.playground */,
+			);
+			name = "스택의 활용";
+			path = "스택의 활용";
+			sourceTree = "<group>";
+		};
+		CB12185D2BBAC42D00057B9D /* BFS&DFS */ = {
+			isa = PBXGroup;
+			children = (
+				CBE976D82B7349C6005A0E4F /* 7576-토마토.playground */,
+				CBE976D92B735AF1005A0E4F /* 4179-불!.playground */,
+				CB9B91E82B7CF8CE00EC7AB7 /* 10026-적록색약.playground */,
+				CB0745752B80BCAB00E3A967 /* 7569-토마토.playground */,
+				CB33FC422B93429C00BE354C /* 5427-불.playground */,
+				CB12185E2BBACCB300057B9D /* 6593-상범빌딩.playground */,
+			);
+			path = "BFS&DFS";
+			sourceTree = "<group>";
+		};
+		CB12F37D2BBFB1E100A88119 /* 백트래킹 */ = {
+			isa = PBXGroup;
+			children = (
+				CB12F37E2BBFB1F400A88119 /* 9663-N-Queen.playground */,
+				CB97AE072BE4CCA000C883C8 /* 1759-암호 만들기.playground */,
+			);
+			name = "백트래킹";
+			path = "백트래킹";
+			sourceTree = "<group>";
+		};
+		CB4A93AC2BB6EE79007DD0A1 /* 재귀 */ = {
+			isa = PBXGroup;
+			children = (
+				CB4A93AA2BB6DFD8007DD0A1 /* 17478-재귀함수가 뭔가요?.playground */,
+				CB2F55B22BB5B16D00FB5951 /* 1629-곱셈.playground */,
+				CB2F55B42BB5C1C400FB5951 /* 1074-Z.playground */,
+				CB4A93AB2BB6ECA2007DD0A1 /* 1780-종이의 개수.playground */,
+				CBEA505C2BB7FD1E007292AA /* 2630-색종이 만들기.playground */,
+				CBEA505D2BB7FEBD007292AA /* 1992-쿼드트리.playground */,
+			);
+			name = "재귀";
+			path = "재귀";
+			sourceTree = "<group>";
+		};
+		CB4A93AD2BB6EE9A007DD0A1 /* 재귀 */ = {
+			isa = PBXGroup;
+			children = (
+				CB2F55B32BB5BDEA00FB5951 /* 11729-하노이 탑 이동 순서.playground */,
+			);
+			name = "재귀";
+			path = "재귀";
+			sourceTree = "<group>";
+		};
+		CB4EA2052BBC020D004BE17E /* 백트래킹 */ = {
+			isa = PBXGroup;
+			children = (
+				CB12F37F2BBFB6EA00A88119 /* 1182-부분수열의 합.playground */,
+				CB4EA2062BBC0221004BE17E /* 15649-N과M(1).playground */,
+				CB12F3802BBFBC8E00A88119 /* 15650-N과M(2).playground */,
+				CB12F3812BBFBFBA00A88119 /* 15651-N과M(3).playground */,
+				CB12F3822BBFC21800A88119 /* 15652-N과M(4).playground */,
+				CB12F3832BBFC41600A88119 /* 15654-N과M(5).playground */,
+				CB12F3842BBFC5B000A88119 /* 15655-N과M(6).playground */,
+				CB12F3862BBFDFEB00A88119 /* 15656-N과M(7).playground */,
+				CB12F3872BBFE27C00A88119 /* 15657-N과M(8).playground */,
+				CB12F3882BBFE4F600A88119 /* 15663-N과M(9).playground */,
+				CB76E99D2BCD31BA00B9891A /* 15664-N과M(10).playground */,
+				CBB25EA22BD8D58300F5F31F /* 15665-N과M(11).playground */,
+				CB8727572BE114FB00A37950 /* 15666-N과M(12) .playground */,
+				CB8727582BE1184300A37950 /* 6603-로또.playground */,
+			);
+			name = "백트래킹";
+			path = "백트래킹";
+			sourceTree = "<group>";
+		};
+		CB7D7DF92BC3C081007AC82D /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				CB7D7DFA2BC3C08F007AC82D /* 1463-1로 만들기.playground */,
+				CB7D7DFB2BC3C4CA007AC82D /* 9095-1, 2, 3 더하기.playground */,
+				CB7D7DFC2BC3C60A007AC82D /* 2579-계단 오르기.playground */,
+				CB7D7DFD2BC3CF4F007AC82D /* 1149-RGB거리.playground */,
+				CB0A6B052BC57EEC00075D9E /* 11726-2*n 타일링.playground */,
+				CB0A6B062BC5823400075D9E /* 11659-구간 합 구하기 4.playground */,
+				CB0A6B072BC5914E00075D9E /* 12852-1로 만들기 2.playground */,
+				CB7C72722BC904EC00B95BE8 /* 1003-피보나치 함수.playground */,
+				CB7C72732BC9074E00B95BE8 /* 1932-정수 삼각형.playground */,
+				CB01ADE52BCBC39A008E821E /* 11727-2*n 타일링2.playground */,
+				CB01ADE62BCBC675008E821E /* 2193-이친수.playground */,
+				CB01ADE72BCBC8E0008E821E /* 1912-연속합.playground */,
+				CB01ADE92BCBD8A7008E821E /* 11053-가장 긴 증가하는 부분 수열.playground */,
+				CB01ADE82BCBD7FC008E821E /* 11055-가장 큰 증가하는 부분 수열.playground */,
+				CB01ADEA2BCBDF77008E821E /* 9461-파도반 수열.playground */,
+				CB76E99E2BCD3AB800B9891A /* 14501-퇴사.playground */,
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
+		CBCE7ACF2B92DE5E00B1E57A /* Silver */ = {
+			isa = PBXGroup;
+			children = (
+				CB7D7DF92BC3C081007AC82D /* DP */,
+				CB4EA2052BBC020D004BE17E /* 백트래킹 */,
+				CB12185B2BBAC3F900057B9D /* 스택의 활용 */,
+				CBEA505E2BB803B2007292AA /* 스택 */,
+				CB12185A2BBAC3B900057B9D /* BFS&DFS */,
+				CB4A93AC2BB6EE79007DD0A1 /* 재귀 */,
+			);
+			path = Silver;
+			sourceTree = "<group>";
+		};
+		CBE969D32B70D9F1003E1CAC = {
+			isa = PBXGroup;
+			children = (
+				CB7C37892BC0D756004120E3 /* Test.playground */,
+				CBCE7ACF2B92DE5E00B1E57A /* Silver */,
+				CBE969EB2B70DAEF003E1CAC /* Gold */,
+				CB1218572BBAB96F00057B9D /* Platinum */,
+				CBE969DE2B70D9F1003E1CAC /* BAEKJOON */,
+				CBE969DD2B70D9F1003E1CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBE969DD2B70D9F1003E1CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBE969DC2B70D9F1003E1CAC /* BAEKJOON */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBE969DE2B70D9F1003E1CAC /* BAEKJOON */ = {
+			isa = PBXGroup;
+			children = (
+				CBE969DF2B70D9F1003E1CAC /* main.swift */,
+			);
+			path = BAEKJOON;
+			sourceTree = "<group>";
+		};
+		CBE969EB2B70DAEF003E1CAC /* Gold */ = {
+			isa = PBXGroup;
+			children = (
+				CB12F37D2BBFB1E100A88119 /* 백트래킹 */,
+				CB12185D2BBAC42D00057B9D /* BFS&DFS */,
+				CBEA505F2BB803F8007292AA /* 스택 */,
+				CB12185C2BBAC41200057B9D /* 스택의 활용 */,
+				CB4A93AD2BB6EE9A007DD0A1 /* 재귀 */,
+			);
+			path = Gold;
+			sourceTree = "<group>";
+		};
+		CBEA505E2BB803B2007292AA /* 스택 */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE7AD02B92DE5E00B1E57A /* 10773-제로.playground */,
+				CBEA50602BB80431007292AA /* 10828-스택.playground */,
+				CBEA50612BB80863007292AA /* 1874-스택수열.playground */,
+			);
+			name = "스택";
+			path = "스택";
+			sourceTree = "<group>";
+		};
+		CBEA505F2BB803F8007292AA /* 스택 */ = {
+			isa = PBXGroup;
+			children = (
+				CBE969EC2B70DB07003E1CAC /* 2493-탑.playground */,
+				CB1218552BBAA6BA00057B9D /* 6198-옥상 정원 꾸미기.playground */,
+				CB1218562BBAB87900057B9D /* 17298-오큰수.playground */,
+			);
+			name = "스택";
+			path = "스택";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBE969DB2B70D9F1003E1CAC /* BAEKJOON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE969E32B70D9F1003E1CAC /* Build configuration list for PBXNativeTarget "BAEKJOON" */;
+			buildPhases = (
+				CBE969D82B70D9F1003E1CAC /* Sources */,
+				CBE969D92B70D9F1003E1CAC /* Frameworks */,
+				CBE969DA2B70D9F1003E1CAC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BAEKJOON;
+			productName = BAEKJOON;
+			productReference = CBE969DC2B70D9F1003E1CAC /* BAEKJOON */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBE969D42B70D9F1003E1CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CBE969DB2B70D9F1003E1CAC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CBE969D72B70D9F1003E1CAC /* Build configuration list for PBXProject "BAEKJOON" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBE969D32B70D9F1003E1CAC;
+			productRefGroup = CBE969DD2B70D9F1003E1CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBE969DB2B70D9F1003E1CAC /* BAEKJOON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE969D82B70D9F1003E1CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE969E02B70D9F1003E1CAC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBE969E12B70D9F1003E1CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBE969E22B70D9F1003E1CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CBE969E42B70D9F1003E1CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34STBCNCDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CBE969E52B70D9F1003E1CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34STBCNCDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBE969D72B70D9F1003E1CAC /* Build configuration list for PBXProject "BAEKJOON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE969E12B70D9F1003E1CAC /* Debug */,
+				CBE969E22B70D9F1003E1CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE969E32B70D9F1003E1CAC /* Build configuration list for PBXNativeTarget "BAEKJOON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE969E42B70D9F1003E1CAC /* Debug */,
+				CBE969E52B70D9F1003E1CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBE969D42B70D9F1003E1CAC /* Project object */;
+}
