@@ -1,80 +1,108 @@
-// https://www.acmicpc.net/problem/10026
-
 import Foundation
 
-let RED = "R"
-let GREEN = "G"
-let BLUE = "B"
+typealias Point = (x: Int, y: Int)
 
-var boardRGB: [[String]] = []
-var boardRB: [[String]] = []
+let dx = [1, 0, -1, 0]
+let dy = [0, 1, 0, -1]
 
-final class BFS {
 
-    private let dx = [1, -1, 0, 0]
-    private let dy = [0, 0, 1, -1]
-    private let board: [[String]]
+let N = Int(readLine()!)!
+
+var board: [[Character]] = []
+
+for _ in 1...N {
+    let inputs = Array(readLine()!)
+    board.append(inputs)
+}
+
+
+func rgb() -> Int {
+    var result = 0
+    var visited = Array(repeating: Array(repeating: false, count: N), count: N)
     
-    private var visited: [[Bool]]
     
-    private(set) var result = 0
     
-    init(n: Int, board: [[String]]) {
-        self.board = board
-        self.visited = Array(repeating: Array(repeating: false, count: n), count: n)
+    for i in 0..<N {
+        for j in 0..<N {
+            if visited[i][j] { continue }
+            visited[i][j] = true
+            bfs((i, j))
+            result += 1
+        }
     }
     
-    func run(_ i: Int, _ j: Int) {
-        if visited[i][j] { return }
-        bfs(i, j)
-        result += 1
-    }
     
-    private func bfs(_ i: Int, _ j: Int) {
-        visited[i][j] = true
-        var queue = [(i,j)]
+    func bfs(_ point: Point) {
+        var queue = [point]
+        var index = 0
         
-        while !queue.isEmpty {
-            let (x, y) = queue.removeFirst()
+        while index < queue.count {
+            let (x, y) = queue[index]
+            index += 1
             
-            for idx in 0..<4 {
-                let nx = x + dx[idx]
-                let ny = y + dy[idx]
+            for i in 0..<4 {
+                let nx = x + dx[i]
+                let ny = y + dy[i]
                 
-                if nx < 0 || nx >= N || ny < 0 || ny >= N ||
-                    visited[nx][ny] ||
-                    board[x][y] != board[nx][ny] { continue }
+                if nx < 0 || ny < 0 || N <= nx || N <= ny || visited[nx][ny] || board[x][y] != board[nx][ny] {
+                    continue
+                }
                 visited[nx][ny] = true
                 queue.append((nx, ny))
             }
         }
     }
     
+    return result
 }
 
-let N = Int(readLine()!)!
-for _ in 1...N {
-    let inputs = readLine()!
+
+func rb() -> Int {
+    var result = 0
+    var visited = Array(repeating: Array(repeating: false, count: N), count: N)
     
-    boardRGB.append(inputs
-        .map{ String($0) }
-    )
-    
-    boardRB.append(inputs
-        .replacingOccurrences(of: GREEN, with: RED)
-        .map{ String($0) }
-    )
-}
-
-let bfsRGB = BFS(n: N, board: boardRGB)
-let bfsRB = BFS(n: N, board: boardRB)
-
-
-for i in 0..<N {
-    for j in 0..<N {
-        bfsRGB.run(i, j)
-        bfsRB.run(i, j)
+    for i in 0..<N {
+        for j in 0..<N {
+            if visited[i][j] { continue }
+            visited[i][j] = true
+            bfs((i, j))
+            result += 1
+        }
     }
+    
+    
+    func bfs(_ point: Point) {
+        var queue = [point]
+        var index = 0
+        
+        while index < queue.count {
+            let (x, y) = queue[index]
+            index += 1
+            
+            for i in 0..<4 {
+                let nx = x + dx[i]
+                let ny = y + dy[i]
+                
+                if nx < 0 || ny < 0 || N <= nx || N <= ny || visited[nx][ny] {
+                    continue
+                }
+                
+                if board[x][y] != "B" && board[nx][ny] == "B" {
+                    continue
+                }
+                
+                if board[x][y] == "B" && board[nx][ny] != "B" {
+                    continue
+                }
+                
+                visited[nx][ny] = true
+                queue.append((nx, ny))
+            }
+        }
+    }
+
+    
+    return result
 }
 
-print("\(bfsRGB.result) \(bfsRB.result)")
+print(rgb(), rb())

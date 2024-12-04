@@ -72,6 +72,7 @@
 		CB8727582BE1184300A37950 /* 6603-로또.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6603-로또.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CB97AE072BE4CCA000C883C8 /* 1759-암호 만들기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1759-암호 만들기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CB9B91E82B7CF8CE00EC7AB7 /* 10026-적록색약.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10026-적록색약.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CBAF34512CBBA7D400E2102B /* 2206-벽 부수고 이동하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2206-벽 부수고 이동하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CBB25EA22BD8D58300F5F31F /* 15665-N과M(11).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "15665-N과M(11).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CBCE7AD02B92DE5E00B1E57A /* 10773-제로.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10773-제로.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CBCE7AD12B92DE5E00B1E57A /* 1697-숨바꼭질.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1697-숨바꼭질.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -169,6 +170,7 @@
 				CB0745752B80BCAB00E3A967 /* 7569-토마토.playground */,
 				CB33FC422B93429C00BE354C /* 5427-불.playground */,
 				CB12185E2BBACCB300057B9D /* 6593-상범빌딩.playground */,
+				CBAF34512CBBA7D400E2102B /* 2206-벽 부수고 이동하기.playground */,
 			);
 			path = "BFS&DFS";
 			sourceTree = "<group>";

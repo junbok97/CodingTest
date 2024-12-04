@@ -9,10 +9,10 @@ var demessions = readLine()!
 let N = demessions.last!
 let M = demessions.first!
 
-print(bfs(N, M))
+print(bfs())
 
 
-func bfs(_ N: Int, _ M: Int) -> Int {
+func bfs() -> Int {
     let dir: [(x: Int, y: Int)] = [(1, 0), (-1, 0), (0, 1), (0, -1)]
     
     var queue: [(Int, Int)] = []
@@ -35,11 +35,10 @@ func bfs(_ N: Int, _ M: Int) -> Int {
         
         for idx in 0..<4 {
             let (nx, ny) = (x + dir[idx].x, y + dir[idx].y)
+            if nx < 0 || N <= nx || ny < 0 || M <= ny || 0 <= warehouse[nx][ny] { continue }
+            queue.append((nx, ny))
+            warehouse[nx][ny] = warehouse[x][y] + 1
             
-            if (0..<N ~= nx) && (0..<M ~= ny) && warehouse[nx][ny] < 0   {
-                queue.append((nx, ny))
-                warehouse[nx][ny] = warehouse[x][y] + 1
-            }
         }
     }
     

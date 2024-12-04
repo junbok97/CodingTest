@@ -1,70 +1,75 @@
-// https://www.acmicpc.net/problem/1012
 import Foundation
 
-var testCaseCount = Int(readLine()!)!
-    
+typealias Point = (x: Int, y: Int)
 
-for _ in 1...testCaseCount {
-    solution()
+let dx = [1, 0, -1, 0]
+let dy = [0, 1, 0, -1]
+
+
+let iterator = Int(readLine()!)!
+
+for _ in 1...iterator {
+    run()
 }
 
-func solution() {
+
+func run() {
     let inputs = readLine()!
-        .components(separatedBy: " ")
+        .split(separator: " ")
         .compactMap { Int($0) }
     
-    let N = inputs[0]
-    let M = inputs[1]
-    let CabbageCount = inputs[2]
+    let N = inputs[1] // 행
+    let M = inputs[0] // 열
+    let K = inputs[2] // 배추개수
     
-    var count = 0
     var board = Array(repeating: Array(repeating: 0, count: M), count: N)
     var visited = Array(repeating: Array(repeating: false, count: M), count: N)
+    var result = 0
     
-    for _ in 1...CabbageCount {
-        let input = readLine()!
-            .components(separatedBy: " ")
+    
+    for _ in 1...K {
+        let point = readLine()!
+            .split(separator: " ")
             .compactMap { Int($0) }
+        let x = point[1]
+        let y = point[0]
         
-        let (x, y) = (input.first!, input.last!)
         board[x][y] = 1
     }
     
     for i in 0..<N {
         for j in 0..<M {
-            if board[i][j] == 1 && !visited[i][j] {
-                bfs(i, j)
-                count += 1
+            if visited[i][j] || board[i][j] == 0 {
+                continue
             }
+            result += 1
+            visited[i][j] = true
+            bfs((i, j))
         }
     }
     
-    print(count)
-    
-    func bfs(_ i: Int, _ j: Int) {
-        let dx = [1, -1, 0, 0]
-        let dy = [0, 0, 1, -1]
+    func bfs(_ point: Point) {
+        var queue: [Point] = [point]
+        var index = 0
         
-        visited[i][j] = true
-        var queue = [(i, j)]
-        
-        while !queue.isEmpty {
-            let (x, y) = queue.removeFirst()
+        while index < queue.count {
+            let (x, y) = queue[index]
+            index += 1
             
             for i in 0..<4 {
                 let nx = x + dx[i]
                 let ny = y + dy[i]
                 
-                if nx < 0 || nx >= N || ny < 0 || ny >= M { continue }
-                if visited[nx][ny] || board[nx][ny] == 0 { continue }
+                if nx < 0 || ny < 0 || N <= nx || M <= ny || visited[nx][ny] || board[nx][ny] == 0 {
+                    continue
+                }
+                
+                
                 visited[nx][ny] = true
                 queue.append((nx, ny))
             }
         }
     }
     
-    
+    print(result)
 }
-
-
-
