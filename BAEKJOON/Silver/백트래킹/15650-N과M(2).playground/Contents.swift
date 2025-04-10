@@ -1,49 +1,35 @@
 // https://www.acmicpc.net/problem/15650
-
 import Foundation
 
-func solution() {
-    
-    let inputs = readLine()!
-        .split(separator: " ")
-        .compactMap { Int($0) }
+let inputs = readLine()!
+    .components(separatedBy: " ")
+    .compactMap { Int($0) }
 
-    let N = inputs[0]
-    let M = inputs[1]
-    
-    
-    var arr = Array(repeating: 0, count: N + 1)
-    var isused = Array(repeating: false, count: N + 1)
-    backTracking(0)
-    
-    func backTracking(_ k: Int) {
-        
-        if k == M {
-            var result = ""
-            for i in 0..<M {
-                result += "\(arr[i]) "
-            }
-            print(result)
-            return
+let N = inputs[0]
+let M = inputs[1]
+
+var isUsed = Array(repeating: false, count: N)
+var arr = Array(repeating: 0, count: M)
+
+
+backTraking(0, -1)
+
+func backTraking(_ k: Int, _ front: Int) {
+    if k == M {
+        var answer = ""
+        for i in 0..<M {
+            answer += "\(arr[i]) "
         }
-        
-        var start = 1
-        if k != 0 { start = arr[k-1] + 1}
-        if N < start { return }
-        
-        for i in start...N {
-            if !isused[i] {
-                arr[k] = i
-                isused[i] = true
-                backTracking(k+1)
-                isused[i] = false
-            }
-        }
-        
+        print(answer)
+        return
     }
-
     
+    
+    for i in k..<N {
+        if isUsed[i] || i+1 <= front { continue }
+        isUsed[i] = true
+        arr[k] = i+1
+        backTraking(k+1, i+1)
+        isUsed[i] = false
+    }
 }
-
-
-solution()

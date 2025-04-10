@@ -1,43 +1,45 @@
+// https://www.acmicpc.net/problem/2178
+
 import Foundation
 
-var inputs = readLine()!.components(separatedBy: " ").compactMap { Int($0) }
-let N = inputs.first!
-let M = inputs.last!
+let inputs = readLine()!
+    .components(separatedBy: " ")
+    .compactMap { Int($0) }
+
+let N = inputs[0]
+let M = inputs[1]
+let dx = [1, -1, 0, 0]
+let dy = [0, 0, 1, -1]
 
 var boards: [[Bool]] = []
 
-for _ in 0..<N {
-    let inputs: [Bool] = readLine()!.map { $0 == "1" }
-    boards.append(inputs)
+for _ in 1...N {
+    let input = readLine()!.map { $0 == "1" }
+    boards.append(input)
 }
 
-print(bfs(N, M))
 
-func bfs(_ row: Int, _ col: Int) -> Int {
+var dist = Array(repeating: Array(repeating: -1, count: M), count: N)
+var queue = [(0,0)]
+var index = 0
 
-    let dx = [1, 0, -1, 0]
-    let dy = [0, 1, 0, -1]
+
+dist[0][0] = 1
+
+while index < queue.count {
+    let (x, y) = queue[index]
+    index += 1
     
-    var queue: [(Int, Int)] = []
-    var dist = Array(repeating: Array(repeating: -1, count: col), count: row)
-
-    dist[0][0] = 1
-    queue.append((0,0))
-
-    while !queue.isEmpty {
-        let (x, y) = queue.removeFirst()
-        for i in 0..<4 {
-            let nx = x + dx[i]
-            let ny = y + dy[i]
-            
-            if (nx < 0 || row <= nx || ny < 0 || col <= ny) ||
-                dist[nx][ny] >= 0 ||
-                !boards[nx][ny] { continue }
-            
+    for idx in 0..<4 {
+        let nx = x + dx[idx]
+        let ny = y + dy[idx]
+        
+        if (0..<N) ~= nx && (0..<M) ~= ny && boards[nx][ny] && dist[nx][ny] < 0 {
             dist[nx][ny] = dist[x][y] + 1
             queue.append((nx, ny))
         }
     }
-    
-    return dist[row-1][col-1]
 }
+
+
+print(dist[N-1][M-1])

@@ -1,5 +1,12 @@
 import Foundation
 
+struct UserInfo: Comparable {
+    let age: Int
+    let name: String
+}
+
+
+
 
 func merge<T: Comparable>(_ left: [T], _ right: [T]) -> [T] {
     var left = left
@@ -29,39 +36,25 @@ func mergeSort<T: Comparable>(_ arr: [T]) -> [T] {
 }
 
 
-
 func solution() {
-    _ = readLine()!
-        
-    let A = readLine()!.components(separatedBy: " ")
-    let B = readLine()!.components(separatedBy: " ")
     
-    var result: [String] = []
-    var idxA = 0
-    var idxB = 0
+    let N = Int(readLine()!)!
     
-    while idxA < A.count && idxB < B.count {
-        if A[idxA] < B[idxB] {
-            result.append(A[idxA])
-            idxA += 1
-        } else {
-            result.append(B[idxB])
-            idxB += 1
-        }
+    var arr: [UserInfo] = []
+    
+    for _ in 1...N {
+        let input = readLine()!.components(separatedBy: " ")
+        arr.append(
+            .init(
+                age: Int(input[0])!,
+                name: input[1]
+            )
+        )
     }
     
-    while idxA < A.count {
-        result.append(A[idxA])
-        idxA += 1
-    }
+    mergeSort(arr)
     
-    while idxB < B.count {
-        result.append(B[idxB])
-    }
-    
-    print(result.joined(separator: " "))
 }
-
 
 
 solution()

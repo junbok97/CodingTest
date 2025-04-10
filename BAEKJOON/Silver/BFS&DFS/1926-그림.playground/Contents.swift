@@ -1,54 +1,59 @@
 import Foundation
 
-var inputs = readLine()!.components(separatedBy: " ").compactMap { Int($0) }
-let row = inputs.first!
-let col = inputs.last!
+let inputs = readLine()!
+    .components(separatedBy: " ")
+    .compactMap { Int($0) }
 
-let dx = [1, 0, -1, 0]
-let dy = [0, 1, 0, -1]
+let N = inputs[0]
+let M = inputs[1]
+let dx = [1, -1, 0, 0]
+let dy = [0, 0, 1, -1]
 
-var mx = 0
-var num = 0
 var boards: [[Bool]] = []
 
-for _ in 0..<row {
-    let inputs: [Bool] = readLine()!.components(separatedBy: " ").map { $0 == "1" }
-    boards.append(inputs)
+var result = 0
+var count = 0
+
+
+for _ in 1...N {
+    let input = readLine()!
+       .components(separatedBy: " ")
+       .compactMap { $0 == "1" }
+    boards.append(input)
 }
 
-for i in 0..<row {
-    for j in 0..<col {
+
+for i in 0..<N {
+    for j in 0..<M {
         if !boards[i][j] { continue }
-        num += 1
-        mx = max(mx, bfs(i, j))
+        result = max(result, bfs(i, j))
+        count += 1
     }
 }
 
-print(num)
-print(mx)
+print("\(count)\n\(result)")
 
 
-
-func bfs(_ i: Int, _ j: Int) -> Int {
-    var area = 0
-    var queue: [(Int, Int)] = []
+func bfs(_ row: Int, _ col: Int) -> Int {
     
-    boards[i][j] = false
-    queue.append((i,j))
+    var queue = [(row, col)]
+    var index = 0
+    boards[row][col] = false
     
-    while !queue.isEmpty {
-        area += 1
-        let (x, y) = queue.removeFirst()
-        for i in 0..<4 {
-            let nx = x + dx[i]
-            let ny = y + dy[i]
+    while index < queue.count {
+        let (x, y) = queue[index]
+        index += 1
+        
+        for idx in 0..<4 {
+            let nx = x + dx[idx]
+            let ny = y + dy[idx]
             
-            if (nx < 0 || row <= nx || ny < 0 || col <= ny) || !boards[nx][ny] { continue }
-            
-            boards[nx][ny] = false
-            queue.append((nx, ny))
+            if (0..<N) ~= nx && (0..<M) ~= ny && boards[nx][ny] {
+                boards[nx][ny] = false
+                queue.append((nx, ny))
+            }
         }
     }
-    
-    return area
+
+    return index
 }

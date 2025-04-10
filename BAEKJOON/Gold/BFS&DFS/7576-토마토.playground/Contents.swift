@@ -38,7 +38,6 @@ func bfs() -> Int {
             if nx < 0 || N <= nx || ny < 0 || M <= ny || 0 <= warehouse[nx][ny] { continue }
             queue.append((nx, ny))
             warehouse[nx][ny] = warehouse[x][y] + 1
-            
         }
     }
     
