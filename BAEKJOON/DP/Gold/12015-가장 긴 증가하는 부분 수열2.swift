@@ -1,4 +1,12 @@
-solution12015()
+//
+//  12015-가장 긴 증가하는 부분 수열2.swift
+//  BAEKJOON
+//
+//  Created by 이준복 on 4/25/25.
+//
+
+import Foundation
+
 
 func solution12015() {
     let N = Int(readLine()!)!
