@@ -67,7 +67,13 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Bronze/2748-피보나치 수2.swift",
-				"Silver/11722-가장 긴 감소하는 부분 수열.swift",
+				"Platinum/14003 - 가장 긴 증가하는 부분 수열 (5).swift",
+				"Silver/2156 - 포도주 시식.swift",
+				"Silver/2302 - 극장좌석.swift",
+				"Silver/9095 - 1,2,3 더하기.swift",
+				"Silver/11052 - 카드구매하기.swift",
+				"Silver/11722 - 가장 긴 감소하는 부분 수열.swift",
+				"Silver/15988 - 1,2,3 더하기 (3).swift",
 			);
 			target = CBE969DB2B70D9F1003E1CAC /* BAEKJOON */;
 		};
