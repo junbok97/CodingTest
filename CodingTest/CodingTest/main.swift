@@ -1,8 +1,10 @@
-//
-//  main.swift
-//  CodingTest
-//
-//  Created by 이준복 on 5/14/25.
-//
-
 import Foundation
+
+
+
+func solution(_ N:Int, _ number:Int) -> Int {
+    
+    
+    
+    return 0
+}
