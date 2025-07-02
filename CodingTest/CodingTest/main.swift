@@ -1,10 +1,28 @@
 import Foundation
 
-
-
-func solution(_ N:Int, _ number:Int) -> Int {
+final class Delegate {
     
-    
-    
-    return 0
 }
+
+final class A {
+    weak var delegate: Delegate? {
+        willSet {
+            print("Will Set", delegate)
+        }
+        
+        didSet {
+            print("DidSet Set", delegate)
+        }
+    }
+    
+}
+
+
+
+
+
+let a = A()
+var delegate: Delegate? = Delegate()
+a.delegate = delegate
+delegate = nil
+
